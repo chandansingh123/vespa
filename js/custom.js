@@ -155,7 +155,7 @@ var POTENZA = {};
               $counter.each(function () {
                   var $elem = $(this);                 
                       $elem.appear(function () {
-                          $elem.find('.timer').countTo();
+                          // $elem.find('.timer').countTo();
                       });                  
               });
           }
