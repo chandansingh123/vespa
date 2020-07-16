@@ -155,7 +155,7 @@ var POTENZA = {};
               $counter.each(function () {
                   var $elem = $(this);                 
                       $elem.appear(function () {
-                          // $elem.find('.timer').countTo();
+                          $elem.find('.timer').countTo();
                       });                  
               });
           }
@@ -545,7 +545,7 @@ var POTENZA = {};
 
 $( document ).ready(function() {    
   $.ajax({
-    url: '',
+    url: 'http://themes.potenzaglobalsolutions.com/top-bar-section.php',
     type: 'post',
     //dataType: 'json',     
     data:'action=pgs_top_bar&theme=car-dealer',
